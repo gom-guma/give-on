@@ -1,33 +1,39 @@
 @theme {
   --font-sans: "Pretendard", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 
-  --color-background: #f7f8fa;
-  --color-foreground: #191f28;
+  --color-background: #f5f7f2;
+  --color-foreground: #1f2a22;
   --color-card: #ffffff;
-  --color-card-foreground: #191f28;
-  --color-primary: #1f7a5a;
+  --color-card-foreground: #1f2a22;
+  --color-primary: #2f6f55;
   --color-primary-foreground: #ffffff;
-  --color-primary-soft: #eef7f3;
-  --color-secondary: #f2f4f6;
-  --color-secondary-foreground: #4e5968;
-  --color-muted: #f2f4f6;
-  --color-muted-foreground: #8b95a1;
-  --color-border: #e5e8eb;
-  --color-input: #e5e8eb;
+  --color-primary-soft: #ebf4ef;
+  --color-secondary: #eef1ea;
+  --color-secondary-foreground: #55645a;
+  --color-muted: #f4f6f2;
+  --color-muted-foreground: #7d8a81;
+  --color-border: #dde4db;
+  --color-input: #dde4db;
   --color-destructive: #e5484d;
   --color-destructive-foreground: #ffffff;
   --color-destructive-soft: #fff1f1;
-  --color-warning: #d97706;
-  --color-warning-soft: #fff7ed;
-  --color-ring: #c9ced6;
+  --color-warning: #d7802b;
+  --color-warning-soft: #fff5e8;
+  --color-ring: #c6d2ca;
+  --color-success-soft: #edf7ef;
+  --color-sidebar: #fcfdf9;
+  --color-sidebar-foreground: #33433a;
+  --color-sidebar-accent: #dcecdf;
+  --color-table-head: #f7f9f4;
+  --color-info-soft: #f0f6f7;
 
   --radius-sm: 0.75rem;
   --radius-md: 1rem;
   --radius-lg: 1.25rem;
   --radius-xl: 1.5rem;
 
-  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.04), 0 4px 12px rgba(0, 0, 0, 0.08);
-  --shadow-soft: 0 8px 24px rgba(15, 23, 42, 0.06);
+  --shadow-card: 0 1px 2px rgba(51, 67, 58, 0.04), 0 12px 28px rgba(51, 67, 58, 0.05);
+  --shadow-soft: 0 16px 40px rgba(51, 67, 58, 0.08);
 }
 
 :root {
@@ -50,4 +56,10 @@
   --warning: var(--color-warning);
   --warning-soft: var(--color-warning-soft);
   --ring: var(--color-ring);
+  --success-soft: var(--color-success-soft);
+  --sidebar: var(--color-sidebar);
+  --sidebar-foreground: var(--color-sidebar-foreground);
+  --sidebar-accent: var(--color-sidebar-accent);
+  --table-head: var(--color-table-head);
+  --info-soft: var(--color-info-soft);
 }

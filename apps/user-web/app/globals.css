@@ -1,5 +1,5 @@
-@import "@give-on/theme/tokens.css";
 @import "tailwindcss";
+@import "@give-on/theme/tokens.css";
 
 html,
 body {
@@ -10,6 +10,8 @@ body {
 
 body {
   margin: 0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 a {
@@ -20,4 +22,3 @@ a {
 * {
   box-sizing: border-box;
 }
-
